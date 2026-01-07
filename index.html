@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客 - 分享我的技术与生活</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <i class="fas fa-code"></i> 技术博客
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">首页</a>
+                <a href="#about">关于我</a>
+                <a href="#blog">博客</a>
+                <a href="#categories">分类</a>
+                <a href="#contact">联系</a>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span>开发者</span></h1>
+                    <p>分享技术干货，记录成长点滴</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="avatar">
+                        <img src="https://via.placeholder.com/200" alt="头像">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客文章区域 -->
+    <main class="main-content" id="blog">
+        <div class="container">
+            <div class="content-wrapper">
+                <!-- 文章列表 -->
+                <section class="blog-posts">
+                    <h2 class="section-title">最新文章</h2>
+                    
+                    <!-- 文章1 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/600x300" alt="文章图片">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">前端开发</span>
+                                <span class="date">2024-01-07</span>
+                            </div>
+                            <h3 class="post-title">
+                                <a href="#">现代CSS布局技巧：Grid与Flexbox的完美结合</a>
+                            </h3>
+                            <p class="post-excerpt">探索如何将CSS Grid和Flexbox结合使用，创建复杂而灵活的网页布局。通过实际案例学习最佳实践和常见陷阱。</p>
+                            <div class="post-footer">
+                                <span class="read-more">
+                                    <a href="#">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                                </span>
+                                <span class="post-stats">
+                                    <i class="far fa-eye"></i> 1.2k
+                                    <i class="far fa-comment"></i> 23
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 文章2 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/600x300" alt="文章图片">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">JavaScript</span>
+                                <span class="date">2024-01-05</span>
+                            </div>
+                            <h3 class="post-title">
+                                <a href="#">深入理解JavaScript异步编程：从回调到Promise再到async/await</a>
+                            </h3>
+                            <p class="post-excerpt">详细介绍JavaScript异步编程的演进历程，从回调函数到Promise，再到async/await语法，帮助你掌握现代异步编程技巧。</p>
+                            <div class="post-footer">
+                                <span class="read-more">
+                                    <a href="#">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                                </span>
+                                <span class="post-stats">
+                                    <i class="far fa-eye"></i> 892
+                                    <i class="far fa-comment"></i> 18
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 文章3 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/600x300" alt="文章图片">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">React</span>
+                                <span class="date">2024-01-03</span>
+                            </div>
+                            <h3 class="post-title">
+                                <a href="#">React性能优化：10个实用技巧让你的应用飞起来</a>
+                            </h3>
+                            <p class="post-excerpt">学习React应用性能优化的实用技巧，包括组件懒加载、memoization、虚拟列表等，让你的React应用运行更加流畅。</p>
+                            <div class="post-footer">
+                                <span class="read-more">
+                                    <a href="#">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                                </span>
+                                <span class="post-stats">
+                                    <i class="far fa-eye"></i> 1.5k
+                                    <i class="far fa-comment"></i> 31
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 文章4 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/600x300" alt="文章图片">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Node.js</span>
+                                <span class="date">2024-01-01</span>
+                            </div>
+                            <h3 class="post-title">
+                                <a href="#">Node.js微服务架构设计与实践</a>
+                            </h3>
+                            <p class="post-excerpt">探讨Node.js微服务架构的设计原则和最佳实践，包括服务拆分、通信机制、容错处理等关键 topics。</p>
+                            <div class="post-footer">
+                                <span class="read-more">
+                                    <a href="#">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                                </span>
+                                <span class="post-stats">
+                                    <i class="far fa-eye"></i> 1.1k
+                                    <i class="far fa-comment"></i> 25
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- 侧边栏 -->
+                <aside class="sidebar">
+                    <!-- 关于我 -->
+                    <div class="widget" id="about">
+                        <h3 class="widget-title">关于我</h3>
+                        <div class="about-widget">
+                            <img src="https://via.placeholder.com/150" alt="个人头像" class="about-avatar">
+                            <p class="about-text">热爱技术的全栈开发者，专注于前端开发和Node.js后端。喜欢分享技术经验，记录学习历程。</p>
+                            <div class="about-social">
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 分类 -->
+                    <div class="widget" id="categories">
+                        <h3 class="widget-title">分类</h3>
+                        <ul class="category-list">
+                            <li><a href="#">前端开发 <span>24</span></a></li>
+                            <li><a href="#">JavaScript <span>18</span></a></li>
+                            <li><a href="#">React <span>15</span></a></li>
+                            <li><a href="#">Node.js <span>12</span></a></li>
+                            <li><a href="#">CSS <span>10</span></a></li>
+                            <li><a href="#">Vue.js <span>8</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- 热门标签 -->
+                    <div class="widget">
+                        <h3 class="widget-title">热门标签</h3>
+                        <div class="tags-cloud">
+                            <a href="#" class="tag">JavaScript</a>
+                            <a href="#" class="tag">React</a>
+                            <a href="#" class="tag">CSS</a>
+                            <a href="#" class="tag">Node.js</a>
+                            <a href="#" class="tag">前端</a>
+                            <a href="#" class="tag">开发</a>
+                            <a href="#" class="tag">Web</a>
+                            <a href="#" class="tag">编程</a>
+                            <a href="#" class="tag">技术</a>
+                            <a href="#" class="tag">学习</a>
+                        </div>
+                    </div>
+
+                    <!-- 最新评论 -->
+                    <div class="widget">
+                        <h3 class="widget-title">最新评论</h3>
+                        <ul class="comments-list">
+                            <li class="comment-item">
+                                <div class="comment-avatar">
+                                    <img src="https://via.placeholder.com/40" alt="评论者头像">
+                                </div>
+                                <div class="comment-content">
+                                    <p><a href="#">张三</a> 在 <a href="#">现代CSS布局技巧</a></p>
+                                    <span class="comment-date">2天前</span>
+                                </div>
+                            </li>
+                            <li class="comment-item">
+                                <div class="comment-avatar">
+                                    <img src="https://via.placeholder.com/40" alt="评论者头像">
+                                </div>
+                                <div class="comment-content">
+                                    <p><a href="#">李四</a> 在 <a href="#">JavaScript异步编程</a></p>
+                                    <span class="comment-date">3天前</span>
+                                </div>
+                            </li>
+                            <li class="comment-item">
+                                <div class="comment-avatar">
+                                    <img src="https://via.placeholder.com/40" alt="评论者头像">
+                                </div>
+                                <div class="comment-content">
+                                    <p><a href="#">王五</a> 在 <a href="#">React性能优化</a></p>
+                                    <span class="comment-date">5天前</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>技术博客</h3>
+                    <p>分享技术经验，记录成长点滴</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="#blog">博客</a></li>
+                        <li><a href="#contact">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> email@example.com</li>
+                        <li><i class="fas fa-phone"></i> +86 123 4567 8910</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 中国·北京</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 技术博客. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // 返回顶部按钮功能
+        const backToTopBtn = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.style.display = 'block';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
